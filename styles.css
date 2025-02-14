@@ -74,7 +74,7 @@ body {
 
 .sign-up-button {
     background-color: #3882F6;
-    width: 20%;
+    width: 10%;
     color: white;
     padding: 8px 16px;
     border: 2px solid white;
@@ -82,3 +82,32 @@ body {
     font-size: 14px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    gap: 16px;
+}
+
+.product-box {
+    display: flex;
+    gap: 48px;
+    justify-content: space-evenly;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 4px;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
