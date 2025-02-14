@@ -11,3 +11,33 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.header, 
+.info,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
