@@ -138,3 +138,14 @@ body {
     font-weight: 800;
     margin-left: auto;
 }
+
+.sign-up {
+    margin: 72px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding: 48px;
+}
